@@ -1,0 +1,100 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    max-width: 1420px;
+    margin: 0 auto;
+    margin-bottom: 160px;
+}
+
+.left-container-navigation,
+.right-container-navigation,
+.mail-details,
+.phone-details {
+    display: flex;
+}
+
+.pop-up {
+    margin-right: 40px;
+}
+
+.rectangle-yellow-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.rectangle-white {
+    background-image: url('../assets/img/png/Rectangle.png');
+    width: 40px;
+    height: 2px;
+}
+
+.rectangle-yellow {
+    background-image: url('../assets/img/png/Rectangle-yellow.png');
+    width: 16px;
+    height: 2px;
+}
+
+.mail-img {
+    background-image: url('../assets/img/svg/mail.svg');
+    width: 10px;
+    height: 7.5px;
+    align-self: center;
+    margin-right: 9.5px;
+    margin-top: 6px;
+}
+
+.phone-img {
+    background-image: url('../assets/img/svg/phone.svg');
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 11px;
+    align-self: center;
+    margin-right: 7.5px;
+}
+
+.our-mail {
+    margin-right: 95px;
+}
+
+.our-phone {
+    margin-left: 70px;
+}
+
+.mail {
+    color: #FEE040;
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px; 
+    text-align: right;
+    letter-spacing: -0.5px;
+    margin-top: 6px;
+}
+
+.phone {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right; 
+    color: #FFFFFF;
+    margin-top: 7px;
+}
+
+.info {
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.5px;
+    opacity: 0.5;
+}
+
+.lable-container {
+    background-image: url('../assets/img/png/lable.png');
+    width: 196.69px;
+    height: 30.03px;
+    margin-left: 40px;
+}

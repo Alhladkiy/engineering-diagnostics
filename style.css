@@ -1,3 +1,3 @@
-p  {
-    color: red;
-}
+@import "./style/reset.css";
+@import "./style/navigation.css";
+@import "./style/first-section.css";
