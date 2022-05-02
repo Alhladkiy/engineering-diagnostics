@@ -1,6 +1,6 @@
 .first-section {
-    background: linear-gradient(180deg, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%), 
-    url('../assets/img/png/sean-pollock-203658-unsplash.png');
+    background: linear-gradient(180deg, rgba(0, 78, 134, 0.7) 50%, rgba(10, 65, 104, 0.7) 100%), 
+    url('../assets/img/png/main-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }

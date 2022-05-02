@@ -1,6 +1,7 @@
 .second-section {
     color: #151515;
     display: flex;
+    place-content: center;
 }
 
 .main-container-second-section {
@@ -97,6 +98,6 @@
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    left: 25%;
+    left: 27%;
 }
 
