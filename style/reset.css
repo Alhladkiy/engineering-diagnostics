@@ -30,8 +30,6 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  color: #ffffff;
-  overflow-x: hidden;
 }
 
 ul[class],
@@ -44,7 +42,7 @@ a:not([class]) {
 }
 
 img {
-  /* max-width: 100%; */
+  max-width: 100%;
   display: block;
 }
 
