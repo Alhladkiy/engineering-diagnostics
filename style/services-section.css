@@ -1,4 +1,4 @@
-.third-section {
+.services-section {
     position: relative;
     background-image: url('../assets/img/png/bg.png');
     background-repeat: no-repeat;
@@ -7,15 +7,15 @@
     height: 753px;
 }
 
-.title-container-third-section {
+.title-container-services-section {
     width: 1085px;
     height: 78px;
     margin: 0 auto;
     padding-top: 100px;
 }
 
-.support-title-third-section {
-    font-family: 'Bebas Neue';
+.main-title-services-section {
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 16px;
@@ -24,27 +24,28 @@
     color: #fee040;
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 173px;
 }
 
-.main-title-third-section {
+.support-title-services-section {
     font-family: 'Gilroy';
     font-weight: 800;
     font-size: 32px;
     line-height: 42px;
     letter-spacing: -0.5px;
     text-align: center;
-    margin: 10px 0 20px 0;
+    margin: 10px 0 0 63px;
 }
 
-.cards-container {
+.wrapper-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 55px;
-    margin-left: 250px;
-    justify-content: end;
+    grid-column-gap: 80px;
+    grid-column-gap: 80px;
     overflow: hidden;
     max-height: 410px;
     float: left;
+    margin-top: 40px;
 }
 
 .title-card {
@@ -88,14 +89,11 @@
     align-self: center;
 }
 
-.card-home, 
-.card-palace, 
-.card-project {
-    width: 400px;
-}
 
 .card-engineer {
     width: 400px;
+    overflow: hidden;
+    display: none;
 }
 
 .scroll-container {

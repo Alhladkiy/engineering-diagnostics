@@ -3,10 +3,11 @@
 
 @import "./style/visiting-section.css";
 @import "./style/advantages-section.css";
-@import "./style/third-section.css";
+@import "./style/services-section.css";
 @import "./style/preparation-section.css";
 
 @import "./style/visiting-section-mobile.css";
 @import "./style/advantages-section-mobile.css";
+@import "./style/services-section-mobile.css";
 @import "./style/preparation-section-mobile.css";
 
