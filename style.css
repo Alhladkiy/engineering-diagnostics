@@ -1,9 +1,10 @@
 @import "./style/reset.css";
 @import "./style/visiting-section.css";
-@import "./style/second-section.css";
+@import "./style/advantages-section.css";
 @import "./style/third-section.css";
 @import "./style/fourth-section.css";
 @import "./style/general.css";
 
-@import "./style/visiting-section-mobile-version.css";
+@import "./style/visiting-section-mobile.css";
+@import "./style/advantages-section-mobile.css";
 

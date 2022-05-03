@@ -5,12 +5,6 @@
     height: 760px;
 }
 
-
-.main-container {
-    max-width: 1420px;
-    margin: 0 auto;
-}
-
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -78,8 +72,6 @@
 
 .mail {
     color: #fee040;
-    font-family: 'Proxima Nova';
-    font-weight: 600;
     font-size: 14px;
     line-height: 12px; 
     letter-spacing: -0.5px;
@@ -97,8 +89,6 @@
 }
 
 .info {
-    font-family: 'Proxima Nova';
-    font-weight: 600;
     font-size: 12px;
     line-height: 12px;
     letter-spacing: -0.5px;

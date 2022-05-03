@@ -6,9 +6,20 @@ html {
 body {
     max-width: 1920px;
     margin: 0 auto;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 600;
 }
 
 .blue-section {
     color:#ffffff;
+}
+
+.light-section {
+    color: #151515;
+}
+
+.main-container {
+    max-width: 1420px;
+    margin: 0 auto;
+    width: 100%;
 }
