@@ -39,13 +39,19 @@
 
 .wrapper-cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 80px;
     grid-column-gap: 80px;
     overflow: hidden;
     max-height: 410px;
     float: left;
     margin-top: 40px;
+
+}
+
+.wrapper-cards {
+    display: flex;
+
 }
 
 .title-card {
@@ -113,3 +119,4 @@
     will-change: width, height;
     background: linear-gradient(270deg, #fee040 0%, rgba(254, 224, 64, 0) 100%);
 }
+

@@ -64,12 +64,24 @@
 }
 
 @media (max-width: 872px) {
-    .wrapper-cards {
-        grid-template-columns: repeat(2, 1fr);
+    .card {
+        width: 400px;
+        align-self: center;
+        margin-bottom: 20px;
     }
 
-    .card-project {
-        display: none;
+    .wrapper-cards {
+        display: flex;
+        flex-direction: column;
+        float: none;
+        height: 100%;
+        overflow: scroll;
+    }
+
+    .services-section {
+        height: 100%;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 
     .support-title-services-section {
@@ -77,17 +89,31 @@
         margin: 20px;
     }
 
+    .scroll {
+        display: none;
+    }
+
     .main-title-services-section {
         font-size: 18px;
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .wrapper-cards {
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        float: none;
+        height: 100%;
+        overflow: scroll;
     }
 
-    .card-palace {
-        display: none;
+    .services-section {
+        height: 100%;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .card {
+        width: 100%;
     }
 }
