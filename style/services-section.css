@@ -111,4 +111,5 @@
     height: 10px;
     background-color: rgba(34, 34, 34, 0.2);
     will-change: width, height;
+    background: linear-gradient(270deg, #fee040 0%, rgba(254, 224, 64, 0) 100%);
 }
