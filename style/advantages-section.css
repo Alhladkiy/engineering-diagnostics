@@ -31,14 +31,7 @@
 }
 
 .description-container-experience {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: -0.5px;
-    color: #707070;
-    opacity: 0.7;
     margin-top: 25px;
-
 }
 
 .right-container-advantages-section {
@@ -47,10 +40,6 @@
 }
 
 .title-container-advantages {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 34px;
-    letter-spacing: -0.5px;
     margin-bottom: 28px;
 }
 
