@@ -17,11 +17,11 @@
         font-size: 20px;
     }
     
-    .description-container-advantages {
+    .options-description {
         font-size: 16px;
     }
 
-    .options-container-advantages {
+    .options-container {
         margin-bottom: 10px;
     }
 
@@ -48,7 +48,7 @@
         line-height: 20px;
     }
 
-    .description-container-advantages {
+    .options-description {
         font-size: 12px;
     }
 
@@ -56,14 +56,14 @@
         font-size: 18px;
     }
 
-    .img-container-advantages {
+    .options-img {
         width: 20px;
         height: 20px;
         background-size: cover;
         margin-right: 5px;
     }
 
-    .options-container-advantages {
+    .options-container {
         margin-bottom: 5px;
     }
 }
@@ -126,7 +126,7 @@
 
     @media (max-width: 340px) {
         .description-container-experience,
-        .description-container-advantages {
+        .options-description {
             font-size: 10px;
         }
 

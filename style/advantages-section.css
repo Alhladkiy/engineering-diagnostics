@@ -43,11 +43,11 @@
     margin-bottom: 28px;
 }
 
-.options-container-advantages {
+.options-container {
     margin-bottom: 19px;
 }
 
-.img-container-advantages {
+.options-img {
     background-image: url('../assets/img/png/icon.png');
     background-repeat: no-repeat;
     width: 30px;
@@ -55,11 +55,11 @@
     margin-right: 20px;
 }
 
-.options-container-advantages {
+.options-container {
     display: flex;
 }
 
-.description-container-advantages {
+.options-description {
     font-size: 18px;
     line-height: 26px;
     letter-spacing: -0.5px;
