@@ -1,0 +1,116 @@
+@media (max-width: 1440px) {
+    .stock-section-wrapper{
+        margin:  0 20px;
+    }
+
+    .stock-section-button-container {
+        margin-left: 0;
+    }
+    .stock-section-button-container {
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+
+    .stock-section-wrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1370px) {
+    
+    .stock-section-main-title-container,
+    .stock-section-button-container {
+        width: 30%;
+    }
+
+    .stock-section-description-container {
+        width: 30%;
+        margin-right: 20px;
+    }
+
+    .stock-section-main-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .stock-section-description {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .stock-section-wrapper {
+        margin: 0 20px;
+    }
+
+    .stock-section-button-container {
+        align-items: center;
+    }
+
+    .stock-section-button {
+        width: 240px;
+        height: 45px;
+    }
+
+    .stock-section-button-img {
+        left: 0;
+        bottom: 55px;
+    }
+}
+
+
+@media (max-width: 1055px) {
+
+    .stock-section-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .stock-section-description-container {
+        width: 100%;
+    }
+
+    .stock-section-main-title-container,
+    .stock-section-button-container {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+
+    .stock-section-description-container {
+        height: 100%;
+    }
+
+    .stock-section-button {
+        margin-bottom: 0;
+    }
+
+    .stock-section-button-img {
+        bottom: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .title-data-processing-section {
+        font-size: 20px;
+    }
+
+    .stock-section-main-container {
+        height: 100%;
+    }
+
+    .stock-section-description {
+        font-size: 14px;
+    }
+
+    .stock-section-description-container {
+        margin: 0 auto;
+    }
+
+    .stock-section-main-title-container {
+        align-items: center;
+    }
+
+    .stock-section-description {
+        margin-bottom: 20px;
+    }
+}

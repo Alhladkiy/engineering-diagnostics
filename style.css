@@ -9,6 +9,8 @@
 @import "./style/preparation-section.css";
 @import "./style/details-section.css";
 @import "./style/data-processing-section.css";
+@import "./style/stock-section.css";
+
 
 @import "./style/mobile/visiting-section-mobile.css";
 @import "./style/mobile/advantages-section-mobile.css";
@@ -16,4 +18,6 @@
 @import "./style/mobile/preparation-section-mobile.css";
 @import "./style/mobile/details-section-mobile.css";
 @import "./style/mobile/data-processing-section-mobile.css";
+@import "./style/mobile/stock-section-mobile.css";
+
 
