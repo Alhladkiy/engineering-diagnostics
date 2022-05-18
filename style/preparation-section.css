@@ -17,7 +17,6 @@
 }
 
 .title-preparation-section {
-    font-family: 'Fuzzy Bubbles', sans-serif;
     margin-top: 104px;
     font-weight: 700;
     font-size: 52px;
@@ -29,7 +28,6 @@
 }
 
 .description-title-preparation-section {
-    font-family: 'Gilroy';
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
@@ -44,7 +42,6 @@
 }
 
 .title-step-one {
-    font-family: 'Proxima Nova';
     font-weight: 700;
     font-size: 24px;
     line-height: 34px;
@@ -95,7 +92,6 @@
 }
 
 .quote {
-    font-family: 'Proxima Nova';
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -106,7 +102,6 @@
 }
 
 .engineer-info {
-    font-family: 'Proxima Nova';
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;

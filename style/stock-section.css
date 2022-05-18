@@ -24,7 +24,6 @@
 }
 
 .stock-section-main-title {
-    font-family: 'Gilroy';
     font-weight: 800;
     font-size: 32px;
     line-height: 42px;
@@ -45,7 +44,6 @@
 }
 
 .stock-section-description {
-    font-family: 'Proxima Nova', Georgia, sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
@@ -64,7 +62,6 @@
 .stock-section-button-description {
     max-width: 340px;
     height: 56px;
-    font-family: 'Proxima Nova';
     font-weight: 400;
     font-size: 15px;
     line-height: 28px;
