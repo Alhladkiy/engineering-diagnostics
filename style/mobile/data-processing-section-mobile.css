@@ -11,10 +11,6 @@
         flex-direction: column;
         justify-content: space-evenly;
     }
-    
-    .container-data-processing-section {
-        margin-left: 20px;
-    }
 
     .title-data-processing-section {
         font-size: 20px;

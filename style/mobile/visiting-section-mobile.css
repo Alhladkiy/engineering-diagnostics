@@ -3,6 +3,11 @@
     .main-info-container{
         margin:  0 20px;
     }
+    
+    .photo-container {
+        margin-right: 25px;
+    }
+
 }
 
 @media (max-width: 1076px) {

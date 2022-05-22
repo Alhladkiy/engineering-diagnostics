@@ -1,0 +1,188 @@
+@media (max-width: 1400px) {
+    .quote-section {
+        padding: 0 20px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .quote-section-autograph {
+        width: 180px;
+        bottom: 0;
+    }
+
+    .quote-section-title {
+        font-size: 38px;
+        line-height: 30px;
+        letter-spacing: 4px;
+    }
+
+    .quote-section-title-description {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .quote-section-quote { 
+        justify-content: space-evenly;
+    }
+
+    .quote-section-quote-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .quote-section-left-container {
+        padding-top: 20px;
+    }
+
+    .quote-section {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .quote-section-left-container {
+        width: 100%;
+    }
+
+    .quote-section-quote {
+        width: 100%;
+    }
+
+    .quote-section-quote-text {
+        font-size: 18px;
+    }
+
+    .quote-section-video-container {
+        justify-content: space-around;
+    }
+
+    .quote-section-autograph {
+        top: -140px;
+        right: 100px;
+    }
+
+    .quote-section-right-container {
+        position: none;
+     
+    }
+}
+
+
+@media (max-width: 920px) {
+    .quote-section-autograph {
+        width: 120px;
+        top: -120px;
+        right: 155px;
+    }
+}
+
+
+@media (max-width: 720px) {
+    .quote-section-video-title {
+        font-size: 16px;
+    }
+
+    .quote-section-manager {
+        font-size: 16px;
+    }
+    .quote-section-autograph {
+        width: 80px;
+        top: -90px;
+        right: 160px;
+    }
+
+    .quote-section-video-container {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 660px) {
+    .quote-section-autograph {
+        right: 135px;
+        height: 60px;
+    }
+
+    .quote-section-video-title {
+        letter-spacing: 4px;
+    }
+}
+
+@media (max-width: 540px) {
+    .quote-section-autograph {
+        right: 90px;
+        height: 40px;
+        top: -60px;
+    }
+
+    .quote-section-title {
+        font-size: 28px;
+    }
+
+    .quote-section-title-description {
+        font-size: 24px;
+    }
+
+    .quote-section-quote-text {
+        font-size: 16px;
+    }
+
+    .quote-section-video-img {
+        width: 43px;
+        height: 60px;
+        background-size: cover;
+    }
+
+    .quote-section-video-title {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .quote-section-manager {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 450px) {
+    .quote-section-autograph {
+        right: 70px;
+    }
+}
+
+@media (max-width: 410px) {
+    .quote-section-quote-text {
+        font-size: 12px;
+    }
+
+    .quote-section-title {
+        font-size: 26px;
+    }
+
+    .quote-section-video-title {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    .quote-section-manager {
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .quote-section-autograph {
+        right: 40px;
+    }
+}
+
+
+
+
+
+
+
+
