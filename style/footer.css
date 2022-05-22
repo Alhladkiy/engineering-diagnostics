@@ -1,3 +1,7 @@
+.footer {
+    pad: 0 20px;
+}
+
 .main-container-footer {
     display: flex;
     justify-content: space-evenly;
@@ -44,7 +48,7 @@
 
 .footer-text {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     color: #151515;
 }
@@ -73,4 +77,10 @@
     line-height: 12px;
     letter-spacing: -0.5px;
     margin-left: 5px;
+}
+
+.mail-phone-container {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
 }
