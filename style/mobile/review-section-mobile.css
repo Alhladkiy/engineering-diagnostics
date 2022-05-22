@@ -133,10 +133,20 @@
     .review-section-description {
         font-size: 12px;
     }
+
+    .review-section-main-container {
+        padding: 0;
+    }
 }
 
 @media (max-width: 370px) {
     .logo-review-compony-bg {
-        left: 40%;
+        left: 43%;
+    }
+}
+
+@media (max-width: 340px) {
+    .logo-review-compony-bg {
+        left: 43%;
     }
 }
