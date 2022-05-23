@@ -66,4 +66,8 @@
     .cost-section-title-description {
         margin-top: 30px;
     }
+
+    .cost-section-text-container {
+        height: 360px;
+    }
 }

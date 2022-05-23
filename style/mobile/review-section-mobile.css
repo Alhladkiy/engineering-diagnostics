@@ -44,9 +44,7 @@
     .review-section-review-container {
         max-height: 380px;
     }
-}
 
-@media (max-width: 1076px) { 
     .review {
         background-position: center;
         height: 250px;
@@ -69,6 +67,16 @@
     .review-section {
         height: 100%;
     }
+
+    .review-section-button {
+        width: 240px;
+    }
+
+    .review-section-button-img {
+        left: 3px;
+        bottom: 71px;
+    }
+    
 }
 
 @media (max-width: 787px) {

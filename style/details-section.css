@@ -1,3 +1,7 @@
+.main-container-details-section {
+    padding-top: 50px;
+}
+
 .text-container-details-section {
     display: flex;
     flex-direction: column;

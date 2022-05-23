@@ -22,7 +22,7 @@
 }
 
 .burger {
-    margin-right: 47px;
+    margin-right: 37px;
 }
 
 .burger-rectangle-yellow-container {
@@ -63,7 +63,7 @@
 }
 
 .our-mail {
-    margin-right: 75px;
+    margin-right: 72px;
 }
 
 .our-phone {
@@ -114,8 +114,10 @@
 
 .main-info-top-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 80px;
+    width: 1180px;
+    margin: 0 auto;
 }
 
 .main-title {

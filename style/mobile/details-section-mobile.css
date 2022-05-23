@@ -1,8 +1,4 @@
 @media (max-width: 1430px) {
-    .details-section {
-        margin: 180px 20px 0 20px;
-    }
-
     .item-container {
         max-width: 900px;
         margin: 0 auto;
@@ -10,10 +6,6 @@
 }
 
 @media (max-width: 1000px) {
-    .details-section {
-        margin: 150px 20px 0 20px;
-    }
-
     .item-container {
         max-width: 487px;
     }
@@ -24,9 +16,9 @@
     }
 }
 
-@media (max-width: 800px) {
-    .details-section {
-        margin: 100px 20px 0 20px;
+@media (max-width: 750px) {
+    .description-details-section {
+        margin: 0 20px;
     }
 }
 
@@ -45,6 +37,7 @@
     .title-details-section {
         font-size: 20px;
         line-height: 20px;
+        text-align: center;
     }
 
     .step-two {

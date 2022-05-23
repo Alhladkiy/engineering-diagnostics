@@ -3,6 +3,10 @@
         margin: 0 0 0 70px;
     }
 
+    .preparation-section {
+        height: 100%;
+    }
+
     .description-step-one, 
     .quote {
         font-size: 14px;
@@ -30,6 +34,10 @@
 }
 
 @media (max-width: 1428px) {
+    .preparation-section {
+        max-height: 100%;
+    }
+
     .bottom-container-preparation-section {
         flex-direction: column;
         margin: 0;
@@ -55,10 +63,6 @@
 @media (max-width: 1048px) {
     .img-container-preparation-section {
         width: 100%;
-    }
-
-    .bottom-container-preparation-section {
-        margin: 0 20px;
     }
 
     .img-preparation-section {
@@ -155,6 +159,3 @@
         font-size: 11px;
     }
 }
-
-
-

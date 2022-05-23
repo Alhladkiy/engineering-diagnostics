@@ -110,12 +110,10 @@
         font-size: 14px;
     }
 
-    .stock-section-description-container {
-        margin: 0 auto;
-    }
-
     .stock-section-main-title-container {
         align-items: center;
+        margin: 20px 0 0 0;
+        height: 110px;
     }
 
     .stock-section-description {
@@ -124,5 +122,34 @@
 
     .stock-section-button-img {
         display: none;
+    }
+
+    .stock-section-button-container {
+        margin: 20px 0 0 0;
+    }
+
+    .stock-section-button-description {
+        margin-top: 20px;
+    }
+
+    .stock-section-description-container {
+        max-width: 460px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .stock-section-button {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stock-section-button-container {
+        margin: 0;
+    }
+
+    .stock-section-main-title-container {
+        height: 140px;
     }
 }

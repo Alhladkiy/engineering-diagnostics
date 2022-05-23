@@ -4,11 +4,23 @@
     }
 
     .documentation-section-img-container {
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .documentation-section-text-container {
         margin-right: 20px;
+    }
+    
+    .description-part-one {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .documentation-section-text-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 }
 
@@ -25,12 +37,6 @@
 @media (max-width: 664px) {
     .documentation-section-img-container {
         flex-direction: column;
-    }
-
-    .documentation-section-text-container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
     }
 
     .documentation-section-img-container {
@@ -72,11 +78,9 @@
         height: 100%;
         margin-bottom: 20px;
     }
-
-
 }
 
-@media (max-width: 420px) {
+@media (max-width: 476px) {
     .documentation-section-main-container {
         height: 100%;
     }
