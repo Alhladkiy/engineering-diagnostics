@@ -86,7 +86,7 @@
     .photo-container {
         position: absolute;
         left: 50%;
-        top: 70%;
+        top: 76%;
         transform: translate(-50%, -50%);
         margin-right: -50%;
     }
@@ -138,7 +138,7 @@
     }
 
     .photo-container {
-        top: 75%;
+        top: 84%;
     }
 
     .photo {
@@ -223,7 +223,7 @@
     }
 
     .photo-container {
-        top: 72%;
+        top: 80%;
     }
 
 }
@@ -239,7 +239,7 @@
     }
 
     .photo-container {
-        top: 75%;
+        top: 84%;
     }
 
     .main-title {
@@ -249,6 +249,6 @@
 
 @media (max-width: 340px) {
     .photo-container {
-        top: 76%;
+        top: 85%;
     }
 }
