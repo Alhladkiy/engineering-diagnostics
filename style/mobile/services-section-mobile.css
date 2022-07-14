@@ -1,0 +1,119 @@
+@media (max-width: 1482px) {
+    .wrapper-cards {
+        margin: 0 20px;
+        grid-column-gap: 40px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .main-title-services-section {
+        margin-left: 0;
+    }
+
+    .support-title-services-section {
+        margin: 10px 0 0 0;
+    }
+
+    img {
+        object-fit: contain;
+        /* width: 100%; */
+    }
+}
+
+@media (max-width: 1400px) {
+    .support-title-services-section {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+
+    .title-card {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .description-card {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .details-card {
+        font-size: 16px;
+    }
+
+    .title-container-services-section {
+        padding-top: 50px;
+    }
+
+    .title-container-services-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media (max-width: 1066px) {
+    .description-card{
+        font-size: 11px;
+    }
+
+    .wrapper-cards {
+        grid-column-gap: 20px;
+    }
+}
+
+@media (max-width: 872px) {
+    .card {
+        width: 400px;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
+    .wrapper-cards {
+        display: flex;
+        flex-direction: column;
+        float: none;
+        height: 100%;
+        overflow: scroll;
+    }
+
+    .services-section {
+        height: 100%;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .support-title-services-section {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .scroll {
+        display: none;
+    }
+
+    .main-title-services-section {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .wrapper-cards {
+        display: flex;
+        flex-direction: column;
+        float: none;
+        height: 100%;
+        overflow: scroll;
+    }
+
+    .services-section {
+        height: 100%;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

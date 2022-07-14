@@ -1,0 +1,86 @@
+.footer {
+    pad: 0 20px;
+}
+
+.main-container-footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 121px;
+    align-items: center;
+}
+
+.left-container-footer {
+    max-width: 296px;
+}
+
+.info-company {
+    font-size: 12px;
+    line-height: 18px;
+    color: #707070;
+}
+
+.right-container-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 716px;
+    height: 41px;
+}
+
+.footer-text-container {
+    display: flex;
+}
+
+.mail-img-grey {
+    background-image: url('../assets/img/svg/mail-grey.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 12px;
+}
+
+.phone-img-grey {
+    background-image: url('../assets/img/svg/phone-grey.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+}
+
+.footer-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #151515;
+}
+
+.our-phone-footer, 
+.our-mail-footer {
+    margin: 0;
+}
+
+.our-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.address-img-grey {
+    background-image: url('../assets/img/svg/home.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 10px;
+}
+
+.info-footer {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.5px;
+    margin-left: 5px;
+}
+
+.mail-phone-container {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}

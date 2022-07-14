@@ -1,0 +1,100 @@
+.documentation-section-main-container {
+    display: flex;
+    justify-content: space-between;
+    height: 683px;
+}
+
+.documentation-section-team-container {
+    display: flex;
+    width: 50%;
+}
+
+.documentation-section-team-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 16px;
+    justify-content: space-around;
+}
+
+.documentation-section-text-container {
+    width: 50%;
+}
+
+.documentation-section-team-line {
+    width: 2px;
+    height: 140px;
+    background: linear-gradient(180deg, rgba(254, 224, 64, 0) 0%, #FEE040 100%)
+}
+
+.documentation-section-team-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    color: #2F80ED;
+    transform: rotate(-90deg);
+}
+
+.documentation-section-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.documentation-section-title-description-bold {
+    color: #000000;
+}
+
+.documentation-section-img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.documentation-section-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 132px;
+    height: 185px;
+}
+
+.certificate-one {
+    background-image: url('../assets/img/png/certificate-one.jpg');
+}
+
+.certificate-two {
+    background-image: url('../assets/img/png/certificate-two.jpg'); 
+}
+
+.certificate-three {
+    background-image: url('../assets/img/png/certificate-three.jpg');
+}
+
+.certificate-four {
+    background-image: url('../assets/img/png/certificate-four.jpg');
+}
+
+.documentation-section-title-description {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #707070;
+}
+
+.documentation-section-title-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 168px;
+}
+
+.documentation-section-title-container {
+    margin-bottom: 39px;
+}
+
+.documentation-section-text-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 249px;
+    justify-content: space-between;
+}

@@ -1,0 +1,73 @@
+.stock-section-main-container {
+   display: flex;
+    max-width: 1920px;
+    height: 408px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background: linear-gradient(180deg, rgba(30, 102, 154, 0.9) 0%, rgba(10, 65, 104, 0.9) 100%), 
+    url('../assets/img/png/morgan-von-gunten-1264787-unsplash.png');
+}
+
+.stock-section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1420px;
+    height: 178px;
+}
+
+.stock-section-main-title-container {
+    max-width: 460px;
+    height: 168px;
+}
+
+.stock-section-main-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.5px;
+}
+
+.stock-section-special-word {
+    color: #FEE040;
+}
+
+.stock-section-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 440px;
+    height: 168px;
+    margin-right: 60px;
+}
+
+.stock-section-description {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
+
+.stock-section-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 60px;
+    max-width: 460px;
+    height: 168px;
+}
+
+.stock-section-button-description {
+    max-width: 340px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.stock-section-button-img {
+    bottom: 78px;
+}
+

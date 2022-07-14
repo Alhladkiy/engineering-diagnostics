@@ -1,0 +1,34 @@
+@import "./style/reset.css";
+@import "./style/general.css";
+
+@import "./style/fonts.css";
+
+@import "./style/visiting-section.css";
+@import "./style/advantages-section.css";
+@import "./style/services-section.css";
+@import "./style/preparation-section.css";
+@import "./style/details-section.css";
+@import "./style/data-processing-section.css";
+@import "./style/stock-section.css";
+@import "./style/documentation-section.css";
+@import "./style/quote-section.css";
+@import "./style/review-section.css";
+@import "./style/cost-section.css";
+@import "./style/footer.css";
+
+@import "./style/mobile/visiting-section-mobile.css";
+@import "./style/mobile/advantages-section-mobile.css";
+@import "./style/mobile/services-section-mobile.css";
+@import "./style/mobile/preparation-section-mobile.css";
+@import "./style/mobile/details-section-mobile.css";
+@import "./style/mobile/data-processing-section-mobile.css";
+@import "./style/mobile/stock-section-mobile.css";
+@import "./style/mobile/documentation-section-mobile.css";
+@import "./style/mobile/quote-section-mobile.css";
+@import "./style/mobile/review-section-mobile.css";
+@import "./style/mobile/cost-section-mobile.css";
+@import "./style/mobile/footer-mobile.css";
+
+
+
+

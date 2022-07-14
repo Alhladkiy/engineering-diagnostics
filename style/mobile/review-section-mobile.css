@@ -1,0 +1,160 @@
+@media (max-width: 1600px) {
+    .review-section-main-container {
+        padding: 0 50px;
+    }
+
+    .review-section-review-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 40px;
+    }
+
+    .review {
+        width: 100%;
+        height: 70%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .review-section-review-container {
+        max-height: 425px;
+    }
+
+    .logo-review-compony-bg {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 1076px) {
+    .review-section-button {
+        font-size: 8px;
+        width: 340px;
+    }
+    .review-section-button-img {
+        left: 46px;
+        bottom: 72px;
+    }
+
+    .review-section {
+        height: 100%;
+    }
+
+    .review-section-review-container {
+        max-height: 380px;
+    }
+
+    .review {
+        background-position: center;
+        height: 250px;
+    }
+
+    .review-section-review-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        max-height: 100%;
+        height: 100%;
+    }
+
+    .logo-review-compony-bg {
+        left: 44%;
+        width: 50px;
+        height: 50px;
+        top: -5px;
+    }
+
+    .review-section {
+        height: 100%;
+    }
+
+    .review-section-button {
+        width: 240px;
+    }
+
+    .review-section-button-img {
+        left: 3px;
+        bottom: 71px;
+    }
+    
+}
+
+@media (max-width: 787px) {
+    .logo-review-compony-bg {
+        left: 43%;
+    }
+    
+    .review-section-button-img {
+        bottom: 46px;
+    }
+
+    .review-section-title-container {
+        text-align: center;
+    }
+
+    .review-section-text-container {
+        height: 300px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 680px) {
+    .logo-review-compony-bg {
+        left: 42%;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo-review-compony-bg {
+        left: 40%;
+    }
+}
+
+@media (max-width: 520px) {
+    .logo-review-compony-bg {
+        left: 38%;
+    }
+
+    .review-section-button {
+        width: 260px;
+        
+    }
+
+    .review-section-button-img {
+        left: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .review-section-review-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .logo-review-compony-bg {
+        left: 43%;
+    }
+
+    .name-company {
+        margin: 20px 0 0 0;
+    }
+
+    .review-section-description {
+        font-size: 12px;
+    }
+
+    .review-section-main-container {
+        padding: 0;
+    }
+}
+
+@media (max-width: 370px) {
+    .logo-review-compony-bg {
+        left: 43%;
+    }
+}
+
+@media (max-width: 340px) {
+    .logo-review-compony-bg {
+        left: 43%;
+    }
+}

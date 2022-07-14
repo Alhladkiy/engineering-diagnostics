@@ -1,0 +1,104 @@
+@media (max-width: 1500px) {
+    .documentation-section-team-wrapper {
+        margin-left: 20px;
+    }
+
+    .documentation-section-img-container {
+        justify-content: space-between;
+    }
+
+    .documentation-section-text-container {
+        margin-right: 20px;
+    }
+    
+    .description-part-one {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .documentation-section-text-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 870px) {
+    .documentation-section-text-container {
+        justify-content: space-around;
+    }
+
+    .documentation-section-title-container {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 664px) {
+    .documentation-section-img-container {
+        flex-direction: column;
+    }
+
+    .documentation-section-img-container {
+        flex-direction: initial;
+    }
+
+    .documentation-section-text-container {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 580px) {
+    .documentation-section-title {
+        line-height: 30px;
+    }
+
+    .documentation-section-title-description {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .documentation-section-text-container {
+        justify-content: space-evenly;
+    }
+
+    .documentation-section-img-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        margin-top: 20px;
+        justify-items: center;
+    }
+
+    .documentation-section-team-container {
+        width: 10%;
+    }
+
+    .documentation-section-title-description-container {
+        height: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 476px) {
+    .documentation-section-main-container {
+        height: 100%;
+    }
+
+    .documentation-section-text-container-wrapper {
+        height: 100%;
+    }
+
+    .documentation-section-img-container {
+        grid-gap: 5px; 
+    }
+
+    .documentation-section-title-description {
+        font-size: 14px;
+    }
+
+    .documentation-section-text-container {
+        margin-left: 10px;
+    }
+}
+

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url('../fonts/Proxima-Nova/proximanova_black.otf');
+    src: url('../fonts/Proxima-Nova/proximanova_black.ttf');
+    src: url('../fonts/Proxima-Nova/proximanova_blackit.otf');
+    src: url('../fonts/Proxima-Nova/proximanova_bold.otf');
+    src: url('../fonts/Proxima-Nova/proximanova_boldit.otf');
+    src: url('../fonts/Proxima-Nova/proximanova_extrabold.otf');
+    src: url('../fonts/Proxima-Nova/proximanova_light.otf');
+    src: url('../fonts/Proxima-Nova/proximanova_regular.ttf');
+}
+
+@font-face {
+    font-family: "Gilroy-Extrabold";
+    src: url('../fonts/Gilroy/Gilroy-Extrabold.ttf');
+    src: url('../fonts/Gilroy/Gilroy-Extrabold.woff');
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url('../fonts/Gilroy/Gilroy-Bold.ttf');
+}
+

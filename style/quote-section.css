@@ -1,0 +1,109 @@
+.quote-section {
+    display: flex;
+    justify-content: center;
+    height: 677px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.quote-section-autograph {
+    background-image: url('../assets/img/svg/sing.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 187px;
+}
+
+.quote-section-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quote-section-title {
+    font-size: 42px;
+    line-height: 42px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #2F80ED 0%, rgba(0, 78, 134, 0.8) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.quote-section-title-description {
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.5px;
+    color: #151515;
+}
+
+.quote-section-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 580px;
+    height: 252px;
+}
+
+.quote-section-quote-text {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #707070;
+}
+
+.quote-section-quote-text-strong {
+    color: #151515;
+}
+
+.quote-section-video-container {
+    display: flex;
+}
+
+.quote-section-video-img {
+    background-image: url('../assets/img/png/play.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 100px;
+    background-position-x: center;
+}
+
+.quote-section-video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote-section-video-title {
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 7px;
+    color: #BBBBBB;
+    text-transform: uppercase;
+}
+
+.quote-section-manager {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    color: #151515;
+    opacity: 0.7;
+}
+
+.manager {
+    text-transform: none;
+}
+
+.quote-section-right-container {
+    position: relative;
+    display: flex;
+}
+
+.quote-section-autograph {
+    position: absolute;
+    bottom: 30px;
+}
+

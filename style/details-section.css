@@ -1,0 +1,127 @@
+.main-container-details-section {
+    padding-top: 50px;
+}
+
+.text-container-details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step-two {
+    margin-bottom: 20px;
+}
+
+.title-details-section {
+    margin-bottom: 28px;
+}
+
+.container-description-details-section {
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.item-container {
+    overflow: hidden;
+}
+
+.item-container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    transition: .2s;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.img-item-container {
+    position: relative;
+    margin-bottom: 40px;
+    min-width: 430.333px;
+    height: 357px;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.img-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.img-item {
+    position: absolute;
+    bottom: 32%;
+}
+
+.name-item {
+    margin-bottom: 55px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;  
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #151515;
+    opacity: 0.7;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-right: 10px;
+}
+
+.button-container {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-details-section  {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #FEE040;
+    border-radius: 50%;
+}
+
+.button-next-container,
+.button-prev-container {
+    position: relative;
+}
+
+.btn-img-details {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 10px;
+    top: 35%;
+    left: 30%;
+}
+
+.button-next-img {
+    background-image: url('../assets/img/svg/arrow-right.svg');
+    cursor: pointer;
+
+}
+
+.button-prev-img {
+    background-image: url('../assets/img/svg/arrow-left.svg');
+    cursor: pointer;
+}
+
+
+
+
+
+
